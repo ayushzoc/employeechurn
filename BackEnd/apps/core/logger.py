@@ -34,3 +34,6 @@ class Logger:
 
     def info(self, message):
         self.logger.info(message)
+
+    def exception(self, message):
+        self.logger.exception(message)

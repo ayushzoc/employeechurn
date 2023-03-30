@@ -6,7 +6,7 @@ from apps.core.logger import Logger
 class FileOperation:
     """
     *
-    * filename: logger.py
+    * filename: file_operation.py
     * version: 1.0
     * author: Ray Joshi
     * Creation date: 03/29/2023
