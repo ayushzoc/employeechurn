@@ -106,8 +106,8 @@ class PredictionModel:
                 self.logger.info("Shape of Data " + str(cluster_data_new.info()))
                 y_predicted = model.predict(cluster_data_new)
                 self.logger.info("Output: " + str(y_predicted))
-            self.logger.info("End of Prediction")
-            return int(y_predicted[0])
+                self.logger.info("End of Prediction")
+                return int(y_predicted[0])
         except Exception:
             self.logger.exception("Unsuccessful End of Prediction")
             raise Exception
